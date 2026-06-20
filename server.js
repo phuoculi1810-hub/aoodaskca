@@ -84,7 +84,7 @@ app.get("/", (req, res) => {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Merchant Coordinator</title>
+  <title>Lester HUD</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -146,7 +146,7 @@ app.get("/", (req, res) => {
 </head>
 <body>
   <div class="card">
-    <h1>🔐 Merchant Coordinator</h1>
+    <h1>Lester HUD Manager</h1>
     <p>Đăng nhập để quản lý danh sách JobID</p>
     <form method="POST" action="/login">
       <label>Mật khẩu</label>
@@ -182,7 +182,7 @@ app.get("/dashboard", (req, res) => {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard - Merchant Coordinator</title>
+  <title>Dashboard - Lester HUD Manager</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -287,7 +287,7 @@ app.get("/dashboard", (req, res) => {
 </head>
 <body>
   <div class="container">
-    <h1>📦 Merchant Coordinator</h1>
+    <h1>📦 Lester HUD</h1>
     <div class="sub">Quản lý danh sách JobID server</div>
 
     <div class="stats">
